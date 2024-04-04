@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/me.jpg";
+import myImg from "../../Assets/photo_me.jpg";
 import SocialMedia from "../SocialMedia";
 import TypeWriter from "./TypeWriter";
 import Avatar from 'react-avatar';
@@ -37,9 +37,9 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5}>
-              <Avatar src = {myImg} className="profile-pic" size={500}></Avatar>
-              {/* <img src={myImg} className="profile-pic" alt="avatar" /> */}
+            <Col md={6} className="d-flex justify-content-center">
+              <Avatar src = {myImg} className="text-center rounded-circle mt-5 " size={300}></Avatar>
+              {/* <img src={myImg} className="profile-pic " alt="avatar" /> */}
             </Col>
           </Row>
         </Container>
