@@ -18,16 +18,15 @@ function AboutCard() {
             I am eager to use my knowledge to explore the mysteries of genomics,
             proteomics, and other biological processes, ultimately driving advancements in healthcare and
             biotechnology.
-            <br />
-            Some of my recent projects include:
-            {/* Apart from coding, some other activities that I love to do! */}
+            <br />            
+            Apart from bioinformatics, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> <a href={"https://github.com/superstar951220/MetaTunes"}>MetaTunes</a>
+              <ImPointRight /> <a href={"https://github.com/superstar951220/MetaTunes"}>Torontovka</a>
             </li>
             <li className="about-activity">
-              <ImPointRight /> <a href={"https://github.com/superstar951220/ipromise"}>ipromise</a>
+              <ImPointRight /> <a href={"https://github.com/superstar951220/ipromise"}>iPromise</a>
             </li>
           </ul>
         </blockquote>

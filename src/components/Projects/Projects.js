@@ -8,7 +8,7 @@ function Projects() {
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          From Code to Cure:<strong className="purple">Uniting Genomes, Computers, and Compassion.</strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.

@@ -11,7 +11,7 @@ function ProjectCards(props) {
       <Badge className="position-absolute top-0 start-100 translate-middle" variant={`${props.stack=="Full-Stack"?"primary":"warning"}`} pill>{props.stack}</Badge>
       <Card.Body>
         <Card.Title style={{fontWeight: "bold"}}>{props.title}</Card.Title>
-        <Card.Text className="purple">Technology: {props.technologyUsed}</Card.Text>
+        <Card.Text className="purple">Skills: {props.technologyUsed}</Card.Text>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>

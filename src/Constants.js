@@ -1,53 +1,45 @@
-import AUTOMATION from "./Assets/Projects/3automation.jpg";
-import COAST from "./Assets/Projects/coast.jpg";
-import DROPSHIP from "./Assets/Projects/dropship.jpg";
-import GOOD_FOOD_DISCOUNTS from "./Assets/Projects/goodFoodDiscounts.png";
-import GUAMEDIA from "./Assets/Projects/guamedia.jpg";
-import Ipromise from "./Assets/Projects/Ipromise.png";
-import Financial from "./Assets/Projects/project1.png";
-import Torontova from "./Assets/Projects/torontova.png";
-import Mymanager from "./Assets/Projects/mymanager.png";
+import FFPE from "./Assets/Projects/novogene-ffpe/3.jpg";
+import MEDCHEM from "./Assets/Projects/medchem/logo.png";
+import MembranePlus from "./Assets/Projects/membraneplus/logo.png";
+import Torontovka from "./Assets/Projects/torontovka/torontovka1.png";
+import iPromise from "./Assets/Projects/ipromise/ipromise-dark.png";
 
 
 export const PROJECTS = [
   {
-    image: Financial,
-    name: "Financial-Candlestick-Chart",
-    technologyUsed: "ReactJs, Javascript, Redux, d3.js",
-    description: "This chart shows the daily low, high, open and close of Apple stock. Each “candle” represents a single trading day.",
-    url: "https://alvin-yang68.github.io/Financial-Candlestick-Chart/",
-    stack: "Full-Stack"
+    image: FFPE,
+    name: "FFPE RNA-seq",
+    technologyUsed: "Splicing Analysis, SNP, Fusion Analysis, Differential Expression Analysis",
+    description: "Novogene’s in-house bioinformatics pipelines that provides robust and comprehensive transcriptomic analyses of human RNA",
+    url: "https://www.novogene.com/us-en/services/biopharma-services/discovery-and-pre-clinical/ffpe-rna-seq/",
   },
   {
-    image: Torontova,
-    name: "torontovka",
-    technologyUsed: "Angular, C#, Node.JS  typescript, Zone.js, Webpack",
-    description: "This Website covers Everything about Toronto and Canada: News, Poster, Dating, Business Directory, Personal ads, Blogs, Television. I developed front-end using Angular and Zone.js",
-    url: "https://torontovka.com/",
-    stack:"Frontend"
+    image: MEDCHEM,
+    name: "MedChem Designer™",
+    technologyUsed: "UI, Application Development",
+    description: "Combines innovative molecule drawing features with fast and accurate ADMET property predictions from Simulation Plus's top-ranked ADMET Predictor®.",
+    url: "https://www.simulations-plus.com/software/medchem-designer/",
   },
   {
-    image: Mymanager,
-    name: "mymanager",
-    technologyUsed: "ReactNative, Javascript, Redux, React, GrapesJS, bootstrap, mongodb, Node.js, Express.js, mongoose, websocket",
-    description: "Prject, Task, Finance, Community, Brand management Web application. I contributed to develop community and gamification part as full stack",
-    url: "https://mymanager.com/",
-    stack: "Full-Stack"
+    image: MembranePlus,
+    name: "MembranePlus™",
+    technologyUsed: "Application Development",
+    description: "The industry’s leading mechanistic in vitro permeability & hepatocyte modeling software.",
+    url: "https://www.simulations-plus.com/software/membraneplus/",
   },
   {
-    image: Ipromise,
-    name: "Ipromise",
-    technologyUsed: "React, JavaScript, Next.js, CMS, Vercel, bootstrap, resoponsive, tailwind",
-    description: "It is customized Company portfolio site which delivers digital solutions.",
-    url: "https://ipromise.vercel.app/",
-    stack: "Frontend"
+    image: Torontovka,
+    name: "Torontovka",
+    technologyUsed: "Angular, user Authentication, RxJS",
+    description: "User Authentication confirming modal before sending message at torontovka's transport section",
+    url: "https://torontovka.com/ads/auto/transport",
   },
   {
-    image: GOOD_FOOD_DISCOUNTS,
+    image: iPromise,
     name: "GoodFoodDiscounts",
-    technologyUsed: "ReactNative, Javascript, Redux",
-    description: "Good food discouts app is similar like swiggy. Food and hotel can be searched and can be order. Even has facility to add coupan. You can add food in favourite list.",
-    url: "",
+    technologyUsed: "NextJS, Responsive, Vercel",
+    description: "Designed websites and developed with NextJS, followed by deploying on Vercel",
+    url: "https://ipromise.vercel.app/",
   },
 ];
 
