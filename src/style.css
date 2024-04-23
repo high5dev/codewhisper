@@ -767,6 +767,12 @@ html {
   text-align: left;
   margin-left: 10%;
 }
+
+
+.additional-name {
+  text-align: left;
+  margin-left: 10%;
+}
 .skill-wrapper {
   border-right: 1px solid #414141;
   box-shadow: 0 4px 5px 3px rgba(59, 56, 59, 0.459) !important;

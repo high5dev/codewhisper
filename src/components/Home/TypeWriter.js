@@ -6,11 +6,11 @@ function TypeWriter() {
     <Typewriter
       options={{
         strings: [
-          "Senior Software Engineer",
-          "Over 9 years Experience",
-          "Full Stack Developer",
-          "DevOps Engineer",
-          "Bioinfomatics",
+          "Eager to Learn",
+          "Optimistic",
+          "5 Years Experience",
+          "Software Engineer",
+          "Bioinfomatician",
         ],
         autoStart: true,
         loop: true,

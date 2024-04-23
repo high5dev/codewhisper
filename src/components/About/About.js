@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import developer from "../../Assets/developer.jpg";
-import { SKILLS, TOOLS } from "../../Constants";
+import developer from "../../Assets/Home (2).png";
+import { SKILLS, TOOLS, ADDITIONALS } from "../../Constants";
 
 function About() {
   return (
@@ -41,6 +41,14 @@ function About() {
             ))}
           </Col>
           <Col className="skill-wrapper">
+            <h1 className="project-heading">
+              <strong className="purple">Additional</strong> Skills
+            </h1>
+            {ADDITIONALS.map((additional, index) => (
+              <ul key={index} className="additional-name">
+                <li>{additional}</li>
+              </ul>
+            ))}
             <h1 className="project-heading">
               <strong className="purple">Tools</strong> I use
             </h1>

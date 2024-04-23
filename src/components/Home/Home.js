@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/photo_me.jpg";
+import myImg from "../../Assets/Home (1).png";
 import SocialMedia from "../SocialMedia";
 import TypeWriter from "./TypeWriter";
 import Avatar from 'react-avatar';
@@ -21,14 +21,14 @@ function Home() {
 
               <h1 className="heading-name">
                 {/* I'M */}
-                <strong className="main-name"> Kenny Stacker</strong>
+                <strong className="main-name"> Eric Thomas </strong>
               </h1>
 
-              <p className="heading-description blockquote">
-                Passionate Software Engineer with 9+ years of experience in developing web applications and backend
-                systems. Skilled at writing clear, concise code that is easy to maintain and troubleshoot. Experienced
-                in working with both small and large teams across multiple projects and companies. Able to work
-                independently of remote locations or in office environments as needed by the company.
+              <p className="heading-description blockquote" style={{ textAlign: "justify" }}>
+              As a software engineer with a specialization in bioinformatics, I understand how fascinating this field can be. <br/>
+              I know firsthand how exhilarating it can be to uncover the mysteries of life through code, constantly pushing the boundaries of what's possible. <br/>
+              I'm committed to innovation and to contributing to advancements in science and technology. <br/>
+              Let's work together to explore this exciting field and make a real difference in the world!
 
               </p>
 

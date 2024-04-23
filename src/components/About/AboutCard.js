@@ -7,15 +7,19 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Kenny Stacker </span>
-            a passionate full stack web developer with <span className="purple"> 9+ years of experience </span>
-            in creating dynamic and user-friendly web applications. My journey in web development began with a fascination for creating digital solutions that seamlessly blend creativity with functionality.
+            Hi Everyone, I am <span className="purple">Eric Thomas. </span><br />
+            With a strong background in <span className="purple">molecular biology</span> and skills in <span className="purple">programming languages</span> such as Python
+            and R, I am skilled at analyzing data, developing bioinformatics pipelines, and interpreting results to
+            advance research in the field.
             <br />
             {/* Senior software Engineer who loves to transform ideas into reality using
             code.
             <br /> */}
-            Outside of my professional work, I enjoy working on personal projects that challenge me to explore new concepts and refine my skills. Some of my recent projects include:
+            I am eager to use my knowledge to explore the mysteries of genomics,
+            proteomics, and other biological processes, ultimately driving advancements in healthcare and
+            biotechnology.
             <br />
+            Some of my recent projects include:
             {/* Apart from coding, some other activities that I love to do! */}
           </p>
           <ul>

@@ -1,17 +1,15 @@
 import React from "react";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
-import { FaLinkedinIn } from "react-icons/fa";
+import { SiHackerrank } from "react-icons/si";
+import { SiIndeed } from "react-icons/si";
 
 function SocialMedia() {
   return (
     <ul className="home-about-social-links">
       <li className="social-icons">
         <a
-          href="http://github.com/superstar951220"
+          href="https://github.com/hibiotech"
           target="_blank"
           rel="noreferrer"
           className="icon-colour  home-social-icons"
@@ -21,32 +19,32 @@ function SocialMedia() {
       </li>
       <li className="social-icons">
         <a
-          href="https://www.linkedin.com/in/kenny-stacker-92b5602bb/"
+          href="https://www.linkedin.com/in/eric-thomas-648313287"
           target="_blank"
           rel="noreferrer"
           className="icon-colour  home-social-icons"
         >
-          <FaLinkedinIn className="social-icon" size={30} />
+          <SiIndeed className="social-icon" size={30} />
         </a>
       </li>
-      {/* <li className="social-icons">
-        <a
-          href="https://www.instagram.com/sunil.yadav84/"
-          target="_blank"
-          rel="noreferrer"
-          className="icon-colour home-social-icons"
-        >
-          <AiFillInstagram className="social-icon" />
-        </a>
-      </li> */}
       <li className="social-icons">
         <a
-          href="mailto:mr.stacker0424@gmail.com"
+          href="mailto:dr.eric1125@gmail.com"
           target="_blank"
           rel="noreferrer"
           className="icon-colour home-social-icons"
         >
           <MdEmail className="social-icon" size={30}/>
+        </a>
+      </li>      
+      <li className="social-icons">
+        <a
+          href="https://www.hackerrank.com/certificates/a18aabe3988d"
+          target="_blank"
+          rel="noreferrer"
+          className="icon-colour home-social-icons"
+        >
+          <SiHackerrank className="social-icon" size={30}/>
         </a>
       </li>
     </ul>

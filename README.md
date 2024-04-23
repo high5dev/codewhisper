@@ -1,6 +1,7 @@
 This project was built using these technologies.
 
 - React.js
+- Responsive Design
 - CSS3
 - VsCode
 

@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-// import Rating from "react-rating"
 import { Rating } from 'react-simple-star-rating'
 
 function Techstack(props) {
