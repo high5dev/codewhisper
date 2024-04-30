@@ -23,10 +23,10 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> <a href={"https://github.com/superstar951220/MetaTunes"}>Torontovka</a>
+              <ImPointRight /> <a href={"https://torontovka.com/ads/auto/transport"}>Torontovka</a>
             </li>
             <li className="about-activity">
-              <ImPointRight /> <a href={"https://github.com/superstar951220/ipromise"}>iPromise</a>
+              <ImPointRight /> <a href={"https://ipromise.vercel.app/"}>iPromise</a>
             </li>
           </ul>
         </blockquote>
