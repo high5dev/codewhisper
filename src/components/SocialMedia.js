@@ -19,7 +19,7 @@ function SocialMedia() {
       </li>
       <li className="social-icons">
         <a
-          href="https://www.linkedin.com/in/eric-thomas-648313287"
+          href="https://www.linkedin.com/in/eric-thomas-818a0a306/"
           target="_blank"
           rel="noreferrer"
           className="icon-colour  home-social-icons"
