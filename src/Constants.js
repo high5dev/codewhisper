@@ -36,7 +36,7 @@ export const PROJECTS = [
   },
   {
     image: iPromise,
-    name: "GoodFoodDiscounts",
+    name: "iPromise's porfolio websites",
     technologyUsed: "NextJS, Responsive, Vercel",
     description: "Designed websites and developed with NextJS, followed by deploying on Vercel",
     url: "https://ipromise.vercel.app/",
