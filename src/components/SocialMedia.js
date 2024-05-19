@@ -9,7 +9,7 @@ function SocialMedia() {
     <ul className="home-about-social-links">
       <li className="social-icons">
         <a
-          href="https://github.com/hibiotech"
+          href="https://github.com/high5dev"
           target="_blank"
           rel="noreferrer"
           className="icon-colour  home-social-icons"
@@ -19,7 +19,7 @@ function SocialMedia() {
       </li>
       <li className="social-icons">
         <a
-          href="https://www.linkedin.com/in/eric-thomas-818a0a306/"
+          href="https://www.linkedin.com/in/eric-thomas-648313287"
           target="_blank"
           rel="noreferrer"
           className="icon-colour  home-social-icons"
@@ -29,7 +29,7 @@ function SocialMedia() {
       </li>
       <li className="social-icons">
         <a
-          href="mailto:dr.eric1125@gmail.com"
+          href="mailto:high5dev621@gmail.com"
           target="_blank"
           rel="noreferrer"
           className="icon-colour home-social-icons"

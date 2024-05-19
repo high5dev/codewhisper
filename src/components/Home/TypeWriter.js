@@ -7,10 +7,12 @@ function TypeWriter() {
       options={{
         strings: [
           "Eager to Learn",
+          "Stay on Up-to-date",
           "Optimistic",
-          "5 Years Experience",
-          "Software Engineer",
-          "Bioinfomatician",
+          "10 Years of Experience",
+          "Senior Software Engineer",
+          "Healthcare industry",
+          "IT solution",
         ],
         autoStart: true,
         loop: true,

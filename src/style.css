@@ -543,10 +543,11 @@ html {
 }
 .project-heading {
   color: #414141 !important;
-  font-size: 2.3em !important;
+  font-size: 1.75em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
   padding-bottom: 15px;
+  text-justify: distribute;
 }
 
 /* --------- */

@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
+import MyJourneyCard from "./MyJourneyCard";
 import developer from "../../Assets/Home (2).png";
 import { SKILLS, TOOLS, ADDITIONALS } from "../../Constants";
 
@@ -22,6 +23,10 @@ function About() {
               <strong className="purple">About Me</strong>
             </h1>
             <Aboutcard />
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              <strong className="purple">My Journey</strong>
+            </h1>
+            <MyJourneyCard />
           </Col>
           <Col md={5} style={{ paddingBottom: "50px" }} className="about-img">
             <img src={developer} alt="about" className="image-style" />

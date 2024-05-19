@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Home (1).png";
+import myImg from "../../Assets/eric2.png";
 import SocialMedia from "../SocialMedia";
 import TypeWriter from "./TypeWriter";
 import Avatar from 'react-avatar';
@@ -25,10 +25,11 @@ function Home() {
               </h1>
 
               <p className="heading-description blockquote" style={{ textAlign: "justify" }}>
-              As a software engineer with a specialization in bioinformatics, I understand how fascinating this field can be. <br/>
-              I know firsthand how exhilarating it can be to uncover the mysteries of life through code, constantly pushing the boundaries of what's possible. <br/>
-              I'm committed to innovation and to contributing to advancements in science and technology. <br/>
-              Let's work together to explore this exciting field and make a real difference in the world!
+                A highly experienced Senior Software Developer with over 10 years of expertise in the healthcare and IT service providing industries.<br />
+                Adept at leading development teams, designing scalable software solutions, and implementing cutting-edge technologies
+                to solve complex business problems. Proven track record of delivering high-quality software projects on time and within budget,
+                with a focus on improving operational efficiency and enhancing user experience. Strong background in full-stack development,
+                system architecture, and project management.
 
               </p>
 
@@ -38,7 +39,7 @@ function Home() {
             </Col>
 
             <Col md={6} className="d-flex justify-content-center">
-              <Avatar src = {myImg} className="text-center rounded-circle mt-5 " size={300}></Avatar>
+              <Avatar src={myImg} className="text-center rounded-circle mt-5 " size={300}></Avatar>
               {/* <img src={myImg} className="profile-pic " alt="avatar" /> */}
             </Col>
           </Row>
